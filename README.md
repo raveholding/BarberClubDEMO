@@ -1,35 +1,22 @@
-# Barber Club · Demo del Sistema RAVE
+# Barbería Juan · Demo Sistema VB
 
-**Barber Club · Barbería** · Urquiza 1040, Salta Capital
+Demo de **menú público con turnero y club** para barberías. Caso ejemplo: **Barbería Juan 💈 · Salta Capital**.
 
-👉 **Abrir la demo:** https://raveholding.github.io/BarberClubDEMO/
+👉 **Abrir la demo:** https://raveholding.github.io/SVBBarberDemo/
 
-Página pública de barbería con **reserva de turnos online**, más el **panel de gestión** detrás de *Acceso del equipo*.
+Es un único archivo `index.html`: se abre en cualquier navegador, sin servidor ni instalación.
 
 ## Qué incluye
-- **Turnos online** en 4 pasos: servicio, profesional, día y horario, datos. Solo muestra horarios libres.
-- **Google:** "Cómo llegar" con Maps, "Dejá tu reseña", "Agregar a Google Calendar" al reservar y ficha para buscadores (schema.org).
-- **Agenda** por profesional, confirmación y recordatorio por WhatsApp, reprogramación y sobreturnos.
-- **Cobro** con atajos F1–F12, edición de líneas auditada, seña descontada, propinas y fiado con límite.
-- **Club de sellos** con tarjeta digital firmada (HMAC-SHA256) y canje de premio.
-- **Caja** con arqueo y cierre sellado (SHA-256), calendario de cierres y CSV.
-- **Equipo y comisiones** (porcentaje o alquiler de silla), fichaje y liquidación.
-- **Clientes** con ficha técnica, cumpleaños, consentimiento (Ley 25.326) y derecho de supresión.
-- Respaldo cifrado (AES-256-GCM), auditoría completa, modo oscuro y celular.
-
-## Acceso del equipo (PIN de prueba)
-| Persona | Rol | PIN |
-|---|---|---|
-| Matías | Dueño (administración) | 1111 |
-| Valentina | Recepción / caja | 2222 |
-| Leandro | Barbero (comisión) | 3333 |
-| Bruno | Barbero (alquiler de silla) | 4444 |
-| Tomás | Barbero (comisión) | 5555 |
+- **Turnero en 4 pasos** (servicios, barbero, día y horario, datos) con confirmación por WhatsApp y Google Calendar.
+- **Seña por transferencia** con alias y CBU para copiar, y comprobante por WhatsApp.
+- **Catálogo de productos** con carrito y pedidos por WhatsApp, sin comisiones.
+- **Club de socios** con planes y tarjeta de socio de ejemplo junto al formulario de datos.
+- **Tarjeta de sellos** por QR.
+- **Reseñas de Google**, ubicación con Google Maps, redes sociales y preguntas frecuentes.
+- **SEO local** (schema.org) para aparecer en búsquedas de Salta Capital.
 
 ## Importante
-- Es una **demo**: nombres, precios, WhatsApp, alias y puntaje de Google son **datos de ejemplo** que se reemplazan por los reales al contratar.
-- Los datos se guardan **en el navegador de cada equipo** y se renuevan solos cada día. La versión con nube comparte turnos entre equipos al instante.
-- Sin facturación ARCA activada (se activa en Administración; el CAE se carga a mano hasta conectar el certificado).
+Es una **demo**: nombres, precios, horarios, reseñas, dirección y datos bancarios son **datos de ejemplo** que se reemplazan por los reales al contratar.
 
 ---
-Desarrollado por **Rave Holding** · WhatsApp [+54 9 387 514-3900](https://wa.me/5493875143900) · raveholding@gmail.com
+Desarrollado por **Vincular Business** · WhatsApp [(387) 4484132](https://wa.me/543874484132) · vincularbusiness@gmail.com
